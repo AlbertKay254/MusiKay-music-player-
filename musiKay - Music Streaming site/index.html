@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatibele" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    
+    <link 
+          rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="style.css"> 
+    <title>Music App</title>   
+</head>
+    
+<body>
+<header>
+    <div class="menu-side">
+        <h1>MusiKay</h1>
+        <div class="playlist">
+            <h4 class="active"><span></span><i class="fa fa-music" aria-hidden="true"></i>Playlist</h4>  
+            <h4><span></span><i class="fa fa-music" aria-hidden="true"></i>Previously PLayed</h4>
+            <h4><span></span><i class="fa fa-music" aria-hidden="true"></i>Recommened</h4>
+        </div>
+        
+        
+        
+        <div  class="menu-song">
+            <li class="song-item">
+                <span>01</span>
+                <img src="Images/1.jpg" alt="cmiygl">
+                <h5>
+                    WUSYANAME
+                    <div class="subtitle">Tyler, the creator</div> 
+                </h5>
+                    <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="1"></i>
+            </li>
+            <li class="song-item">
+                <span>02</span>
+                <img src="Images/2.jpg" alt="fka">
+                <h5>
+                    Mary Magdalene
+                    <div class="subtitle">FKA Twigs</div>
+                </h5>
+                    <i class="fa playlistPlay fa-play-circle" aria- hidden="true" id="2"></i>
+            </li>
+            <li class="song-item">
+                <span>03</span>
+                <img src="Images/3.jpg" alt="pink">
+                <h5>
+                    Money
+                    <div class="subtitle">Pink Floyd</div>
+                </h5>
+                    <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="3"></i>
+            </li>
+            <li class="song-item">
+                <span>04</span>
+                <img src="Images/4.jpg" alt="top">
+                <h5>
+                    Legend
+                    <div class="subtitle">Twenty One Pilots</div>
+                </h5>
+                    <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="4"></i>
+            </li>
+            <li class="song-item">
+                <span>05</span>
+                <img src="Images/1.jpg" alt="cmiygl">
+                <h5>
+                    LEMONHEAD
+                    <div class="subtitle">Tyler, the creator</div>
+                </h5>
+                    <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="5"></i>
+            </li>
+        </div>
+    </div>
+    
+    
+    
+    <div class="song-side">
+        <nav>
+            <ul>
+                <li>Discover<span></span></li>
+                <li>Library</li>
+                <li>Radio</li>
+            </ul>
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search Music">
+                <div class="search_results">
+                    <!---<a href="#" class="card">
+                        <img src="Images/1.jpg" alt="">
+                        <div class="content">
+                            WUSYANAME 
+                            <div class="subtitle">Tyler, the creator</div>
+                        </div>
+                    </a>
+                    --->
+                </div>
+            </div>
+            <div class="user">
+                <img src="Images/ZK.jpg" alt="me">
+            </div>
+        </nav>
+        
+        <div class="content">
+            
+            <h1>Tyler, the Creator - WUSYANAME</h1>  
+            <p>
+                Let's get some bread, fry it in egg yolk and drown it in syrup (Drown it in syrup)<br>
+                You pick a spot, I pick a tail number and we could be tourists
+            </p>
+            <div class="buttons">
+                <button>Play</button>
+                <button>Follow</button>
+            </div>
+        </div>
+        
+        <div class="popular-song">
+            <div class="h4">
+                <h4>Popular Songs</h4>
+                <div class="btn-s">
+                    <i id="left_scroll" class="fa fa-arrow-left" aria-hidden="true"></i>
+                    <i id="right_scroll" class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+            </div> 
+            
+            <div class="pop_song">
+                <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/nurture.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="6"></i>
+                    </div>
+                    <h5>Get Your Wish
+                        <br>
+                        <div class="subtitle">Porter Robinson</div>
+                    </h5>
+                </li>
+                
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/dawn.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="7"></i>
+                    </div>
+                    <h5>Out of time
+                        <br>
+                        <div class="subtitle">The Weeknd</div>
+                    </h5>
+                </li>
+                
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/Jean%20Dawson%20-%20Pixel%20Bath.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="8"></i>
+                    </div>
+                    <h5>Power Freaks
+                        <br>
+                        <div class="subtitle">Jean Dawson</div>
+                    </h5>
+                </li>
+                
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/zel.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="9"></i>
+                    </div>
+                    <h5>Walking
+                        <br>
+                        <div class="subtitle">Denzel Curry</div>
+                    </h5>
+                </li>
+                
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/ken.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="10"></i>
+                    </div>
+                    <h5>DUCKWORTH
+                        <br>
+                        <div class="subtitle">Kendrick Lamar</div>
+                    </h5>
+                </li>
+                
+                <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/sai.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="11"></i>
+                    </div>
+                    <h5>Shy Away
+                        <br>
+                        <div class="subtitle">Twenty One Pilots</div>
+                    </h5>
+                </li>
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/keem.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="12"></i>
+                    </div>
+                    <h5>Family Ties
+                        <br>
+                        <div class="subtitle">Kendrick Lamar</div>
+                    </h5>
+                </li>
+                 
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/7.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="13"></i>
+                    </div>
+                    <h5>Heard you are married
+                        <br>
+                        <div class="subtitle">The Weeknd</div>
+                    </h5>
+                </li>
+                
+                 <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/070.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="14"></i>
+                    </div>
+                    <h5>Web
+                        <br>
+                        <div class="subtitle">070 Shake</div>
+                    </h5>
+                </li>
+                
+                <li class="song-item">
+                    <div class="img-play">
+                        <img src="Images/zel.jpg">
+                        <i class="fa playlistPlay fa-play-circle" aria-hidden="true" id="15"></i>
+                    </div>
+                    <h5>Zatoichi
+                        <br>
+                        <div class="subtitle">Denzel Curry</div>
+                    </h5>
+                </li> 
+            </div>
+        </div>
+        
+        
+        <div class="popular_artists">
+            <div class="h4">
+                <h4>Popular Artists</h4>
+                <div class="btn-s">
+                    <i id="left-scrolls" class="fa fa-arrow-left" aria-hidden="true"></i>
+                    <i id="right-scrolls" class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+            </div> 
+            <div class="item">
+                <li>
+                    <img src="Images/frankie.jpg" title="Frank Ocean">   
+                </li>
+                <li>
+                    <img src="Images/pilots.jpg" title="Twenty One Pilots">
+                </li>
+                <li>
+                    <img src="Images/porter.jpg" title="Porter Robinson">   
+                </li>
+                <li>
+                    <img src="Images/1975.jpg" title="The1975">   
+                </li>
+                <li>
+                    <img src="Images/thundercat-main.jpg" title="Thundercat">   
+                </li>
+                <li>
+                    <img src="Images/haley-heynderickx-by-alessandra-leimer_sq-23e8167ae6b85c6bb820501935d1a3c7b4f11e0e.jpg" title="Hayley Heyndrickx">   
+                </li>                
+                <li>
+                    <img src="Images/haim-sisters-in-arms-2017-rolling-stone-feature-aac09581-eda4-48c2-a9e9-e6ae0ea7fe02.jpg" title="HAIM">   
+                </li>
+                <li>
+                    <img src="Images/2.jpg" title="FKA Twigs">   
+                </li>
+                <li>
+                    <img src="Images/jean-dawson.jpg" title="Jean Dawson">   
+                </li>
+                <li>
+                    <img src="Images/9.jpg" title="Denzel Curry">   
+                </li>
+                <li>
+                    <img src="Images/14.jpg" title="070 Shake">   
+                </li>
+                <li>
+                    <img src="Images/genesis-owusu-h-0520.jpg" title="genesis owusu">   
+                </li>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+
+    
+    
+    <div class="master-play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div> 
+        <img src="Images/1.jpg" alt="cmiygl" id="poster_master_play">
+        <h5 id="title">WUSYANAME<br>
+            <div class="subtitle">Tyler, the creator</div>
+        </h5>
+        <div class="icon">
+            <i class="fa fa-step-backward" aria-hidden="true" id="back"></i>
+            <i class="fa fa-play" aria-hidden="true" id="masterPlay"></i>
+            <i class="fa fa-step-forward" aria-hidden="true" id="next"></i>
+        </div>
+        <div class="icon_two">
+            <i class="fa shuffle fa-music" aria-hidden="true">repeat</i>
+            <a href="" download id="download_music"><i class="fa fa-arrow-circle-down" ></i></a>
+        </div>
+        <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100"> 
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+        <span id="currentEnd">0:00</span>
+        
+        
+        <div class="vol">
+            <i class="fa fa-volume-down" aria-hidden="true" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div> 
+                
+        </div>
+    </div>
+</header>
+    
+    
+    <script src="app.js"></script>
+       
+</body>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
